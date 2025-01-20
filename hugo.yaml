@@ -5,7 +5,7 @@ title: Never Buy a Hyundai, Used or New
 theme: 'hugo-fresh'
 publishDir: ../neverbuyahyundai.com
 
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
+googleAnalytics: G-VG6JK722CS
 # Disables warnings
 disableKinds:
 - taxonomy
@@ -19,7 +19,8 @@ params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy
-  description:
+  description: >
+    Hyundai P1326 Error Code Check Engine Light for Sonato, Elantra, Tucson, Santa Fe, Veloster that is a result of engine failure.
   # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
   # preloader: false
   navbarlogo:
@@ -27,8 +28,8 @@ params:
     image: logos/Hyundai-logo.svg
     link: /
     # Default width/height. Uncomment if you need to change
-    # width: 112
-    # height: 28
+    #width: 150
+    #height: 86
   font:
     name: "Open Sans"
     sizes: [400,600]
@@ -51,13 +52,15 @@ params:
     # urls are optional
     clientlogos:
     - logo: elantra
-      url: https://google.com
+      url: #elantra
     - logo: santa-fe
-      url: https://stefma.github.io/hugo-fresh/
+      url: #santa-fe
     - logo: sonata
-      url: https://github.com/StefMa/hugo-fresh
+      url: #sonata
     - logo: tucson
-      url: https://hugo-fresh.vercel.app/
+      url: #tucson
+    - logo: veloster
+      url: #veloster
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   #navbar:
  # - title: Features
@@ -78,45 +81,45 @@ params:
   #   url: /
   #   button: true
   section2:
-    title: Hundred of thousands high mileage used Hyundais are on the market today.
+    title: Hundred of thousands high mileage used Hyundais on the market today are waiting to breakdown.
     subtitle: >
-      These cars are just waiting to breakdown due to Hyundai's poor engineering practices, and years of selling cars with known engine problems. 
+      Used Hyundai vehicles are just waiting to breakdown due to Hyundai's poor engineering practices, and years of selling cars with known engine problems. 
       There have been class action lawsuits that have resulted in a 15yr/150,000 miles extended warranty from Hyundai. But many of the cars covered
-      by this extended warranty have already reached, or are fast appraoching, the warranty expiration. 
-      See the list of impacted vehicles & engines here.
+      by this extended warranty have already reached, or are fast appraoching, the warranty expiration. Seeing that a new engine
+      starts at $7,000 from Hyundai, it's important to know if your vehicle is impacted. See the list of impacted vehicles & engines here.
     features:
     - title: Hyundai Sonata
       text: >
-        * 2011-2015 MY Sonata Hybrid (YF HEV) vehicles with Theta II 2.4L MPI Atkinson engines
+        * 2011-2015 Sonata Hybrid (YF HEV) vehicles with Theta II 2.4L MPI Atkinson engines
 
-        * 2016-2019 MY Sonata Hybrid/Plug-In (LF HEV/PHEV) vehicles with Nu 2.0L GDI engines 
+        * 2016-2019 Sonata Hybrid/Plug-In (LF HEV/PHEV) vehicles with Nu 2.0L GDI engines 
       # Icon (from static/images/illustrations/icons/___.svg)
       icon: sonata-small
     - title: Hyundai Tucson
       text: >
-        * 2010-2013 MY Tucson (LM) vehicles with Theta II 2.4L MPI engines
+        * 2010-2013 Tucson (LM) vehicles with Theta II 2.4L MPI engines
 
-        * 2014-2015 MY Tucson (LM) vehicles with Nu 2.0L GDI engines
+        * 2014-2015 Tucson (LM) vehicles with Nu 2.0L GDI engines
       
-        * 2016-2021 MY Tucson (TL) vehicles with Nu 2.0L GDI engines
+        * 2016-2021 Tucson (TL) vehicles with Nu 2.0L GDI engines
       icon: tucson-small
     - title: Hyundai Santa Fe
       text: >
-        * 2010-2012 MY Santa Fe (CM) vehicles with Theta II 2.4L MPI engines
+        * 2010-2012 Santa Fe (CM) vehicles with Theta II 2.4L MPI engines
       icon: santa-fe-small
     - title: Hyundai Elantra
       text: >
-        * Certain 2014MY Elantra Coupe (JK) vehicles with Nu 2.0L GDI engines
+        * 2014 Elantra Coupe (JK) vehicles with Nu 2.0L GDI engines
 
-        * 2014-2016 MY Elantra (MD) vehicles with Nu 2.0L GDI engines
+        * 2014-2016 Elantra (MD) vehicles with Nu 2.0L GDI engines
 
-        * 2014-2017 MY Elantra GT (GD) vehicles with Nu 2.0L GDI engines
+        * 2014-2017 Elantra GT (GD) vehicles with Nu 2.0L GDI engines
 
-        * 2018-2020 MY Elantra GT (PD) vehicles with Nu 2.0L GDI engines
+        * 2018-2020 Elantra GT (PD) vehicles with Nu 2.0L GDI engines
       icon: elantra-small
     - title: Hyundai Veloster
       text: >
-        *  2012-2017 MY Veloster (FS) vehicles with Gamma 1.6L GDI engines
+        *  2012-2017 Veloster (FS) vehicles with Gamma 1.6L GDI engines
       icon: veloster-small
   section3:
     title: Read the Service Campaign Below.
@@ -128,7 +131,8 @@ params:
     title: What can you do?
     subtitle: >
       Hyundai has worked tirelessly to avoid admitting guilt in the class action lawsuit, even though
-      hey sold and marketing cars that had a known problem that leads to engine failure.
+      they purposefully sold and marketed cars that had a known problem that leads to costly engine failure and possible fire.
+      
     features:
     - title: NEVER Buy a Used or New Hyundai
       text: >
@@ -137,25 +141,38 @@ params:
 
         * **New Hyundais** - While Hyundai offers "Hyundai Assurance" on all new vehicles, do you really want to do business with a company
         that continued to produce, market, & sell faulty vehicles? Many of these failed engines have caught fire when failing.
-        Is it worth putting you and your family's lives at risk for "the industries best warranty"?
+        Is it worth putting you and your family's lives at risk for "the industry's best warranty"?
     - title: Sell Your Hyundai
       text: >
         If you're close to the 15yr/150,000 mile extended warranty expiration, get out of the vehicle as soon as possible.
         This is espcially important if you have a loan on a used car that could fail and leave you with no car and a loan due.
+        A new engine from Hyundai starts at $7000.
     - title: Tell Your Family & Frineds
       text: >
         If you know someone who owns a Hyundai, share with them this site and the relevant service bulletin so they can
-        plan a way out of their current Hyundai vehicle.    
+        plan a way out of their current Hyundai vehicle.
+  videos:
+    title: Don't Take Our Word
+    subtitle: Here's what others are saying...
+    urls: 
+      - url: https://www.youtube.com/embed/NmTX36vlGLU?si=ycxfMkt8EqJaIP_S 
+      - url: https://www.youtube.com/embed/PQtpznZEO4s?si=RdFLw-KpVUZLXJ3t
+
   footer:
   #   # Logo (from static/images/logos/___)
    logo: Hyundai-logo.svg
+   copyleft: >
+    © 2025 CC BY-SA 4.0. Any use of trademarks, logos, brand names, or other material is 
+    protected under the fair use doctrine, US Code Title 17, Section 107.
+    All trademarks, logos and brand names are the property of their respective owners. 
+    Use of these trademarks, logos, and brand names does not imply endorsement.
    # Social Media Title
-   socialmediatitle: Follow Us
+   #socialmediatitle: Follow Us
    # Social media links (GitHub, Twitter, etc.). All are optional.
-   socialmedia:
-   - link: https://github.com/StefMa
+   #socialmedia:
+   #- link: https://github.com/StefMa
      # Icons are from Font Awesome
-     icon: instagram
+    # icon: instagram
   #   - link: https://dribbble.com/#
   #     icon: dribbble
   #   - link: https://facebook.com/#
